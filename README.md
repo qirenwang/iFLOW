@@ -1,4 +1,4 @@
-# Intelligent Multi-Model Federated Learning Framework
+# iFLOW: Intelligent Multi-Model Federated Learning Framework
 ## 1. Setup Torch and TorchVision
 ```bash
     pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cpu
@@ -16,11 +16,16 @@
 ## 3. How to use
 ```bash
 # start the server
-python3 main_server.py
+python3 ss.py
+
+# start the LLM agent
+python3 flask_app.py
 
 # start a client
-python3 main_client.py client1
+python3 cc.py [CLIENT_ID] eg: CLIENT_ID = 1
 
 # start another client
-python3 main_client.py client2
+python3 cc.py [CLIENT_ID] eg: CLIENT_ID = 2/3/...
 ```
+## Citation
+Qiren Wang, Yongtao Yao, Nejib Ammar and Weisong Shi, "iFLOW: An Intelligent and Scalable Multi-Model Federated Learning Framework on the Wheels," *IEEE Transactions on Intelligent Transportation Systems ([TITS](https://ieee-itss.org/pub/t-its/))*, 2025. 
