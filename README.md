@@ -28,4 +28,12 @@ python3 cc.py [CLIENT_ID] eg: CLIENT_ID = 1
 python3 cc.py [CLIENT_ID] eg: CLIENT_ID = 2/3/...
 ```
 ## Citation
-Qiren Wang, Yongtao Yao, Nejib Ammar and Weisong Shi, "iFLOW: An Intelligent and Scalable Multi-Model Federated Learning Framework on the Wheels," *IEEE Transactions on Intelligent Transportation Systems ([TITS](https://ieee-itss.org/pub/t-its/))*, 2025. 
+```
+@article{wang2025iflow,
+  title={iFLOW: An Intelligent and Scalable Multi-Model Federated Learning Framework on the Wheels},
+  author={Wang, Qiren and Yao, Yongtao and Ammar, Nejib and Shi, Weisong},
+  journal={IEEE Transactions on Intelligent Transportation Systems},
+  year={2025},
+  publisher={IEEE}
+}
+```
