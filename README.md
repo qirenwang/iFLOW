@@ -46,11 +46,11 @@
 ### 1. Setup Torch and TorchVision
 ```bash
 pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cpu
-pip3 install paho-mqtt==2.0.0
+pip3 install paho-mqtt==2.0.0 (Optional)
 pip3 install psutil
 ```
 
-### 2. Mosquitto Setup
+### 2. Mosquitto Setup (Optional)
 ```bash
 sudo apt-add-repository ppa:mosquitto-dev/mosquitto-ppa
 sudo apt-get update
